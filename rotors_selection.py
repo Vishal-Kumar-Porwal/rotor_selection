@@ -132,7 +132,7 @@ for i in bonds_dataframe.columns:
                 l = [ll for ll in L if not ll in K and not ll in [i,j]]
                 #print(k,l) 
                 #print('D',random.choice(k),i,j,random.choice(l),'S', 30, 12.0)
-                something_something = str("D"+" "+str(random.choice(k))+" "+str(i)+" "+str(j)+" "+str(random.choice(l))+" "+"S"+" "+"30"+" "+"12.0")
+                something_something = str("D"+" "+str(k[0])+" "+str(i)+" "+str(j)+" "+str(l[0])+" "+"S"+" "+"30"+" "+"12.0")
                 with open(rotors_output,'a') as f:
                     f.write(str(something_something))
                     f.write("\n")
