@@ -19,7 +19,7 @@ from random import randint
 
 file_xyz = input('path of the xyz file:')
 
-#file_xyz = str('A234.xyz')
+#file_xyz = str('some.xyz')
 
 file_connection= input('path of the file with only connection information:')
 
@@ -27,7 +27,7 @@ file_connection= input('path of the file with only connection information:')
 rotors_output= str('rotors.txt')
 
 
-#file_connection= str('connection-A234.txt')
+#file_connection= str('connection.txt')
 
 connection_dict={}
 n_connection=1
